@@ -1,7 +1,7 @@
 # Lambda Function - Machine Learning based Car Recommendation System
  
 ## Overview
-This repository contains a serverless AWS Lambda function for small car recommendations based on a k-nearest neighbors machine learning model. The application utilizes Python 3.7 and leverages the scikit-learn library for machine learning functionalities. The model is trained on a dataset with features such as Credit Score, ID Type, Marital Status, Gender, Employment Type, and Car Make.
+This repository contains a serverless AWS Lambda function for car recommendations based on a k-nearest neighbors machine learning model. The application utilizes Python 3.7 and leverages the scikit-learn library for machine learning functionalities. The model is trained on a dataset with features such as Credit Score, ID Type, Marital Status, Gender, Employment Type, and Car Make.
 
 ## Functionality
 - **load_features:** This function loads the required dataset and one-hot encodes categorical columns. It then loads a pre-trained k-nearest neighbors model from a pickled file (`nearest_neighbors_model2.pkl`).
